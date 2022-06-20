@@ -12,46 +12,9 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<style>
+<head> <link rel="stylesheet" href="styles.css"> </head>
 
-html {
-  width: 100%;
-  height: 100%;
-  padding-top: 5%;
-  display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-p {
-  margin-bottom: 5%;
-}
-
-input {
-  margin: 5%;
-}
-
-h4 {
-  color: #339966;
-}
-
-a {
-  text-decoration: none;
-  color: #ff6666;
-}
-
-</style>
-</head>
 <body>
-
-
 
 <?php
 if(!isset($_SESSION['user'])) {
